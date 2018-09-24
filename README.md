@@ -10,4 +10,5 @@ nohup nest_timer.py
 disown -h %1
 
 crontab -e
+
 e.g. 59 23 * * * curl -X GET "https://<host>:8080/timer?time=10" -k >> /home/<hostname>/cron.log
