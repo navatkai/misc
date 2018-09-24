@@ -7,6 +7,10 @@ So I decided to write this web app which is accessible from any browser on the l
 # Keep the program running after closing terminal
 nohup nest_timer.py
 
+^z
+
+bg
+
 disown -h %1
 
 crontab -e
